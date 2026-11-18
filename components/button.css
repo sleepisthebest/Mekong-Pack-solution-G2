@@ -1,0 +1,25 @@
+.enquiry-buttons {
+    display: flex;
+    gap: 12px;
+}
+.enquiry-buttons button {
+    width: 145px;
+    height: 40px;
+    border: 1px solid #b9d5ed;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #31556f;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.enquiry-buttons .active {
+    background:#1976D2;
+    border-color: #1976d2;
+    color: #ffffff;
+}
+.enquiry-buttons button:hover {
+    border-color: #1976d2;
+}
